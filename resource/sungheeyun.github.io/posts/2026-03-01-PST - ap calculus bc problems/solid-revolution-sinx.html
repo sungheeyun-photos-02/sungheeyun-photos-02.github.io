@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>3D Solid of Revolution: y = sin(x)</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #06050f; font-family: 'Courier New', monospace; overflow: hidden; }
+  #canvas-container { width: 100vw; height: 100vh; position: relative; }
+
+  .panel {
+    position: absolute;
+    background: rgba(6,4,22,0.88);
+    border: 1px solid rgba(220,60,100,0.4);
+    border-radius: 9px;
+    padding: 14px 18px;
+    color: #f0d0d8;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 0 28px rgba(220,60,100,0.18);
+    pointer-events: none;
+    font-size: 12px;
+    line-height: 1.75;
+  }
+
+  #info { top: 18px; left: 18px; max-width: 272px; }
+  #info .sublabel { font-size: 10px; letter-spacing: 3px; color: #b05570; text-transform: uppercase; margin-bottom: 6px; }
+  #info .title    { font-size: 17px; font-weight: bold; color: #ff7799; margin-bottom: 6px; }
+  #info .desc     { font-size: 12px; color: #997788; }
+  #info .accent   { color: #ff7799; }
+  #info .accent2  { color: #ffee44; }
+  #info .accent3  { color: #44ffcc; }
+  #info .formula  { margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(220,60,100,0.25); font-size: 12.5px; line-height: 1.8; }
+  #info .muted    { color: #aa8899; }
+  #info .vol      { color: #ff8844; font-weight: bold; }
+
+  #legend {
+    bottom: 70px; left: 18px;
+    border-color: rgba(220,60,100,0.2);
+    font-size: 11px; line-height: 2;
+  }
+  #legend .muted2 { color: #554455; font-size: 10px; margin-top: 2px; }
+
+  #controls {
+    bottom: 18px; right: 18px;
+    pointer-events: all;
+    min-width: 182px;
+    border-color: rgba(220,60,100,0.3);
+  }
+  #controls .clabel { font-size: 10px; letter-spacing: 2px; color: #b05570; margin-bottom: 10px; text-transform: uppercase; }
+  #controls label   { font-size: 11px; color: #997788; display: block; margin-bottom: 5px; }
+  #controls input[type=range] { width: 100%; accent-color: #cc3355; cursor: pointer; display: block; margin-bottom: 12px; }
+
+  #controls button {
+    width: 100%; margin-bottom: 8px; padding: 7px 0;
+    font-size: 10.5px; cursor: pointer;
+    background: rgba(180,40,70,0.35);
+    border: 1px solid #cc3355;
+    border-radius: 5px; color: #ff7799;
+    letter-spacing: 0.8px; text-transform: uppercase;
+    transition: all 0.2s; font-family: inherit;
+  }
+  #controls button.off {
+    background: rgba(20,10,30,0.4);
+    border-color: #332233;
+    color: #553344;
+  }
+
+  #hint {
+    bottom: 18px; left: 18px;
+    border-color: rgba(220,60,100,0.12);
+    font-size: 10px; color: #443344;
+  }
+</style>
+</head>
+<body>
+<div id="canvas-container"></div>
+
+<div class="panel" id="info">
+  <div class="sublabel">Solid of Revolution</div>
+  <div class="title">y = sin(x),&nbsp; x ∈ [0, π/2]</div>
+  <div class="desc">
+    Rotated about the <span class="accent">x-axis</span><br>
+    Disc radius: <span class="accent2">r(x) = sin(x)</span><br>
+    Cross-section area: <span class="accent3">A(x) = π sin²(x)</span>
+  </div>
+  <div class="formula">
+    <span class="muted">V = π ∫₀^(π/2) sin²(x) dx</span><br>
+    <span class="muted">  = π · π/4 = </span><span class="vol">π²/4 ≈ 2.46740</span>
+  </div>
+</div>
+
+<div class="panel" id="legend">
+  <div><span style="color:#ffee44;margin-right:8px">■</span>Profile curve y = sin(x)</div>
+  <div><span style="color:#44ffcc;margin-right:8px">■</span>Sample disc cross-sections</div>
+  <div><span style="color:#ff6688;margin-right:8px">■</span>Solid surface</div>
+  <div class="muted2">Drag to rotate · Auto-rotating</div>
+</div>
+
+<div class="panel" id="controls">
+  <div class="clabel">Controls</div>
+  <label id="op-label">Opacity: <strong style="color:#ff7799">85%</strong></label>
+  <input type="range" id="op-slider" min="10" max="100" value="85" />
+  <button id="btn-wire">Wireframe ON</button>
+  <button id="btn-cross">Cross-sections ON</button>
+</div>
+
+<div class="panel" id="hint">Drag to rotate · Auto-rotating</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function () {
+  const container = document.getElementById('canvas-container');
+  const W = container.clientWidth, H = container.clientHeight;
+
+  // ── Scene ──────────────────────────────────────────────────────────────────
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x06050f);
+  scene.fog = new THREE.FogExp2(0x06050f, 0.038);
+
+  // ── Camera ─────────────────────────────────────────────────────────────────
+  const camera = new THREE.PerspectiveCamera(44, W / H, 0.01, 200);
+  const target = new THREE.Vector3(Math.PI / 4, 0, 0);
+  const RADIUS = 5.5;
+  let theta = Math.PI / 5, phi = 1.25;
+
+  const updateCam = () => {
+    camera.position.set(
+      target.x + RADIUS * Math.sin(phi) * Math.cos(theta),
+      target.y + RADIUS * Math.cos(phi),
+      target.z + RADIUS * Math.sin(phi) * Math.sin(theta)
+    );
+    camera.lookAt(target);
+  };
+  updateCam();
+
+  // ── Renderer ───────────────────────────────────────────────────────────────
+  const renderer = new THREE.WebGLRenderer({ antialias: true });
+  renderer.setPixelRatio(window.devicePixelRatio);
+  renderer.setSize(W, H);
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  container.appendChild(renderer.domElement);
+
+  // ── Lighting ───────────────────────────────────────────────────────────────
+  scene.add(new THREE.AmbientLight(0x7080bb, 0.55));
+
+  const key = new THREE.DirectionalLight(0xffffff, 1.3);
+  key.position.set(4, 6, 5);
+  key.castShadow = true;
+  scene.add(key);
+
+  const fill = new THREE.PointLight(0xff6030, 1.1, 18);
+  fill.position.set(-2, 2, -3);
+  scene.add(fill);
+
+  const accent = new THREE.PointLight(0x30aaff, 1.0, 18);
+  accent.position.set(2.5, -2, 4);
+  scene.add(accent);
+
+  // ── Solid of revolution geometry ───────────────────────────────────────────
+  // y = sin(x) rotated around x-axis; x in [0, π/2]
+  const NX = 220, NT = 128;
+
+  const posArr = [], normArr = [], idxArr = [];
+
+  for (let i = 0; i <= NX; i++) {
+    const x = (i / NX) * (Math.PI / 2);
+    const r  = Math.sin(x);
+    const rp = Math.cos(x); // dr/dx
+    const len = Math.sqrt(rp * rp + 1);
+    for (let j = 0; j <= NT; j++) {
+      const a  = (j / NT) * 2 * Math.PI;
+      const cy = Math.cos(a), cz = Math.sin(a);
+      posArr.push(x, r * cy, r * cz);
+      normArr.push(-rp / len, cy / len, cz / len);
+    }
+  }
+
+  for (let i = 0; i < NX; i++) {
+    for (let j = 0; j < NT; j++) {
+      const a = i * (NT + 1) + j;
+      const b = a + 1;
+      const c = a + (NT + 1);
+      const d = c + 1;
+      idxArr.push(a, c, b, b, c, d);
+    }
+  }
+
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.Float32BufferAttribute(posArr, 3));
+  geo.setAttribute('normal',   new THREE.Float32BufferAttribute(normArr, 3));
+  geo.setIndex(idxArr);
+
+  // End-cap disc at x = π/2 (r = 1)
+  const capPos = [], capIdx = [];
+  const capX = Math.PI / 2;
+  capPos.push(capX, 0, 0);
+  for (let j = 0; j <= NT; j++) {
+    const a = (j / NT) * 2 * Math.PI;
+    capPos.push(capX, Math.cos(a), Math.sin(a));
+  }
+  for (let j = 0; j < NT; j++) capIdx.push(0, j + 1, j + 2);
+  const capGeo = new THREE.BufferGeometry();
+  capGeo.setAttribute('position', new THREE.Float32BufferAttribute(capPos, 3));
+  capGeo.setIndex(capIdx);
+  capGeo.computeVertexNormals();
+
+  // Main material (shared by solid + cap)
+  const mat = new THREE.MeshPhongMaterial({
+    color: 0xe03060,
+    emissive: 0x280010,
+    specular: 0xff6688,
+    shininess: 55,
+    transparent: true,
+    opacity: 0.85,
+    side: THREE.DoubleSide,
+  });
+
+  const mesh    = new THREE.Mesh(geo,    mat);
+  const capMesh = new THREE.Mesh(capGeo, mat);
+  scene.add(mesh);
+  scene.add(capMesh);
+
+  // Wireframe
+  const wireMat  = new THREE.MeshBasicMaterial({ color: 0xff88aa, wireframe: true, transparent: true, opacity: 0.06 });
+  const wireMesh = new THREE.Mesh(geo, wireMat);
+  scene.add(wireMesh);
+
+  // ── Profile curve y = sin(x) (and its mirror) ──────────────────────────────
+  const profilePts = [], profilePtsB = [];
+  for (let i = 0; i <= 120; i++) {
+    const x = (i / 120) * (Math.PI / 2);
+    const y = Math.sin(x);
+    profilePts.push(new THREE.Vector3(x,  y, 0));
+    profilePtsB.push(new THREE.Vector3(x, -y, 0));
+  }
+  const pMat = new THREE.LineBasicMaterial({ color: 0xffee44 });
+  scene.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(profilePts),  pMat));
+  scene.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(profilePtsB), pMat));
+
+  // ── Sample disc cross-sections ─────────────────────────────────────────────
+  const crossGroup = new THREE.Group();
+
+  [0.3, 0.7, 1.1, Math.PI / 2].forEach(x => {
+    const r = Math.sin(x);
+    const isEnd = Math.abs(x - Math.PI / 2) < 0.01;
+    const discPts = [];
+    for (let j = 0; j <= 96; j++) {
+      const a = (j / 96) * 2 * Math.PI;
+      discPts.push(new THREE.Vector3(x, r * Math.cos(a), r * Math.sin(a)));
+    }
+    const dMat = new THREE.LineBasicMaterial({ color: isEnd ? 0xffffff : 0x44ffcc, transparent: true, opacity: isEnd ? 0.9 : 0.55 });
+    crossGroup.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(discPts), dMat));
+
+    // Radius indicator line
+    const rMat = new THREE.LineBasicMaterial({ color: isEnd ? 0xaaaaaa : 0x44ffcc, transparent: true, opacity: isEnd ? 0.6 : 0.4 });
+    crossGroup.add(new THREE.Line(
+      new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(x, 0, 0), new THREE.Vector3(x, r, 0)]),
+      rMat
+    ));
+  });
+  scene.add(crossGroup);
+
+  // ── Axes ───────────────────────────────────────────────────────────────────
+  const axLine = (a, b, color) => {
+    const g = new THREE.BufferGeometry().setFromPoints([a, b]);
+    scene.add(new THREE.Line(g, new THREE.LineBasicMaterial({ color })));
+  };
+  axLine(new THREE.Vector3(-0.15, 0, 0),  new THREE.Vector3(1.75, 0, 0),  0xff5555);
+  axLine(new THREE.Vector3(0, -1.3, 0),   new THREE.Vector3(0, 1.3, 0),   0x55ff55);
+  axLine(new THREE.Vector3(0, 0, -1.3),   new THREE.Vector3(0, 0, 1.3),   0x5588ff);
+  // π/2 tick mark
+  axLine(new THREE.Vector3(Math.PI/2, -0.06, 0), new THREE.Vector3(Math.PI/2, 0.06, 0), 0xff5555);
+
+  // ── Grid ───────────────────────────────────────────────────────────────────
+  const grid = new THREE.GridHelper(6, 24, 0x1a1530, 0x0c0c20);
+  grid.position.set(Math.PI / 4, -0.001, 0);
+  scene.add(grid);
+
+  // ── Orbit controls ─────────────────────────────────────────────────────────
+  let isDragging = false, prevX = 0, prevY = 0, autoTheta = theta;
+
+  const onDown = (x, y) => { isDragging = true; prevX = x; prevY = y; };
+  const onUp   = ()       => { isDragging = false; };
+  const onMove = (x, y)   => {
+    if (!isDragging) return;
+    theta -= (x - prevX) * 0.008;
+    phi = Math.max(0.12, Math.min(Math.PI * 0.88, phi + (y - prevY) * 0.008));
+    prevX = x; prevY = y;
+    autoTheta = theta;
+    updateCam();
+  };
+
+  renderer.domElement.addEventListener('mousedown', e => onDown(e.clientX, e.clientY));
+  window.addEventListener('mouseup', onUp);
+  window.addEventListener('mousemove', e => onMove(e.clientX, e.clientY));
+  renderer.domElement.addEventListener('touchstart', e => { if (e.touches.length === 1) onDown(e.touches[0].clientX, e.touches[0].clientY); });
+  window.addEventListener('touchend', onUp);
+  window.addEventListener('touchmove', e => { if (e.touches.length === 1) onMove(e.touches[0].clientX, e.touches[0].clientY); });
+
+  // ── Controls UI ────────────────────────────────────────────────────────────
+  const opSlider = document.getElementById('op-slider');
+  const opLabel  = document.getElementById('op-label');
+  const btnWire  = document.getElementById('btn-wire');
+  const btnCross = document.getElementById('btn-cross');
+  let wireOn = true, crossOn = true;
+
+  opSlider.addEventListener('input', () => {
+    const v = parseInt(opSlider.value);
+    mat.opacity = v / 100;
+    opLabel.innerHTML = `Opacity: <strong style="color:#ff7799">${v}%</strong>`;
+  });
+
+  btnWire.addEventListener('click', () => {
+    wireOn = !wireOn;
+    wireMesh.visible = wireOn;
+    btnWire.textContent = wireOn ? 'Wireframe ON' : 'Wireframe OFF';
+    btnWire.classList.toggle('off', !wireOn);
+  });
+
+  btnCross.addEventListener('click', () => {
+    crossOn = !crossOn;
+    crossGroup.visible = crossOn;
+    btnCross.textContent = crossOn ? 'Cross-sections ON' : 'Cross-sections OFF';
+    btnCross.classList.toggle('off', !crossOn);
+  });
+
+  // ── Resize ─────────────────────────────────────────────────────────────────
+  window.addEventListener('resize', () => {
+    const nw = container.clientWidth, nh = container.clientHeight;
+    camera.aspect = nw / nh;
+    camera.updateProjectionMatrix();
+    renderer.setSize(nw, nh);
+  });
+
+  // ── Animate ────────────────────────────────────────────────────────────────
+  const animate = () => {
+    requestAnimationFrame(animate);
+    if (!isDragging) { autoTheta += 0.003; theta = autoTheta; updateCam(); }
+    renderer.render(scene, camera);
+  };
+  animate();
+})();
+</script>
+</body>
+</html>
