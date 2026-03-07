@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>3D Solid: Equilateral Triangle Cross-Sections</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #05060f; font-family: 'Courier New', monospace; overflow: hidden; }
+  #canvas-container { width: 100vw; height: 100vh; position: relative; }
+
+  .panel {
+    position: absolute;
+    background: rgba(5,8,30,0.88);
+    border: 1px solid rgba(60,100,255,0.4);
+    border-radius: 8px;
+    padding: 14px 18px;
+    color: #ccd8ff;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 0 24px rgba(40,80,255,0.18);
+    pointer-events: none;
+    font-size: 12px;
+    line-height: 1.75;
+  }
+
+  #info {
+    top: 16px; left: 16px;
+    max-width: 260px;
+  }
+  #info .label    { font-size: 10px; letter-spacing: 3px; color: #5577cc; text-transform: uppercase; margin-bottom: 6px; }
+  #info .title    { font-size: 17px; font-weight: bold; color: #88aaff; margin-bottom: 6px; }
+  #info .desc     { color: #7788bb; }
+  #info .accent   { color: #44ffcc; }
+  #info .accent2  { color: #ffdd44; }
+  #info .formula  { margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(60,100,255,0.3); font-size: 13px; }
+  #info .vol      { color: #ff8844; font-weight: bold; }
+
+  #legend {
+    bottom: 62px; left: 16px;
+  }
+  #legend div { margin-bottom: 2px; }
+
+  #controls {
+    bottom: 16px; right: 16px;
+    pointer-events: all;
+    min-width: 178px;
+  }
+  #controls .clabel { font-size: 10px; letter-spacing: 2px; color: #5577cc; margin-bottom: 10px; text-transform: uppercase; }
+
+  #controls label { font-size: 11px; color: #8899cc; display: block; margin-bottom: 5px; }
+  #controls input[type=range] { width: 100%; accent-color: #4466ff; cursor: pointer; display: block; }
+
+  #controls button {
+    width: 100%;
+    margin-top: 12px;
+    padding: 7px 0;
+    font-size: 11px;
+    cursor: pointer;
+    background: rgba(40,80,200,0.4);
+    border: 1px solid #4466ff;
+    border-radius: 5px;
+    color: #88aaff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    font-family: inherit;
+  }
+  #controls button.off {
+    background: rgba(20,30,60,0.4);
+    border-color: #223355;
+    color: #445577;
+  }
+
+  #hint {
+    bottom: 16px; left: 16px;
+    font-size: 10px; color: #334466;
+    pointer-events: none;
+  }
+</style>
+</head>
+<body>
+<div id="canvas-container"></div>
+
+<!-- Info panel -->
+<div class="panel" id="info">
+  <div class="label">Cross-Sectional Solid</div>
+  <div class="title">y = x², &nbsp;x ∈ [0, 2]</div>
+  <div class="desc">
+    Cross-sections ⊥ x-axis:<br>
+    <span class="accent">Equilateral △</span> with side <span class="accent">s = x²</span><br>
+    Area: A(x) = <span class="accent2">√3/4 · x⁴</span>
+  </div>
+  <div class="formula">
+    <span style="color:#aab0cc">V = ∫₀² </span><span class="accent2">√3/4 · x⁴</span><span style="color:#aab0cc"> dx = </span><span class="vol">8√3/5 ≈ 2.7713</span>
+  </div>
+</div>
+
+<!-- Legend -->
+<div class="panel" id="legend">
+  <div><span style="color:#ff4444;margin-right:8px">■</span>Base edges (parabola, y=0)</div>
+  <div><span style="color:#ffdd44;margin-right:8px">■</span>Apex edge (height = √3/2·x²)</div>
+  <div><span style="color:#44ffcc;margin-right:8px">■</span>Sample cross-sections</div>
+</div>
+
+<!-- Controls -->
+<div class="panel" id="controls">
+  <div class="clabel">Controls</div>
+  <label id="opacity-label">Opacity: <strong style="color:#88aaff">82%</strong></label>
+  <input type="range" id="opacity-slider" min="10" max="100" value="82" />
+  <button id="wire-btn">Wireframe ON</button>
+</div>
+
+<!-- Hint -->
+<div class="panel" id="hint">Drag to rotate · Auto-rotating</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function () {
+  const container = document.getElementById('canvas-container');
+  const w = container.clientWidth, h = container.clientHeight;
+  const sqrt3 = Math.sqrt(3);
+
+  // ── Scene ──────────────────────────────────────────────────────────────────
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x05060f);
+  scene.fog = new THREE.FogExp2(0x05060f, 0.04);
+
+  // ── Camera ─────────────────────────────────────────────────────────────────
+  const camera = new THREE.PerspectiveCamera(42, w / h, 0.01, 200);
+  const target = new THREE.Vector3(1.2, 0.8, 0);
+
+  // ── Renderer ───────────────────────────────────────────────────────────────
+  const renderer = new THREE.WebGLRenderer({ antialias: true });
+  renderer.setPixelRatio(window.devicePixelRatio);
+  renderer.setSize(w, h);
+  renderer.shadowMap.enabled = true;
+  container.appendChild(renderer.domElement);
+
+  // ── Lighting ───────────────────────────────────────────────────────────────
+  scene.add(new THREE.AmbientLight(0x8090cc, 0.5));
+  const key = new THREE.DirectionalLight(0xffffff, 1.2);
+  key.position.set(6, 10, 6);
+  key.castShadow = true;
+  scene.add(key);
+  const fill = new THREE.PointLight(0x60a0ff, 1.5, 20);
+  fill.position.set(-3, 4, 2);
+  scene.add(fill);
+  const rim = new THREE.PointLight(0xff6040, 0.8, 15);
+  rim.position.set(3, -1, -4);
+  scene.add(rim);
+
+  // ── Geometry ───────────────────────────────────────────────────────────────
+  const N = 200;
+
+  const getTriVerts = (x) => {
+    const s = x * x;
+    const ht = (sqrt3 / 2) * s;
+    return [
+      new THREE.Vector3(x, 0, -s / 2),
+      new THREE.Vector3(x, 0,  s / 2),
+      new THREE.Vector3(x, ht, 0),
+    ];
+  };
+
+  const posArr = [];
+  for (let i = 0; i <= N; i++) {
+    const x = (i / N) * 2;
+    getTriVerts(x).forEach(v => posArr.push(v.x, v.y, v.z));
+  }
+
+  const idxArr = [];
+  for (let i = 0; i < N; i++) {
+    const a = i * 3, b = (i + 1) * 3;
+    for (let j = 0; j < 3; j++) {
+      const j1 = (j + 1) % 3;
+      idxArr.push(a+j, b+j, b+j1, a+j, b+j1, a+j1);
+    }
+  }
+  // End cap at x=2
+  const base = N * 3;
+  idxArr.push(base, base + 1, base + 2);
+
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.Float32BufferAttribute(posArr, 3));
+  geo.setIndex(idxArr);
+  geo.computeVertexNormals();
+
+  // Main mesh
+  const mat = new THREE.MeshPhongMaterial({
+    color: 0x2266ff,
+    emissive: 0x001133,
+    specular: 0x4488ff,
+    shininess: 60,
+    transparent: true,
+    opacity: 0.82,
+    side: THREE.DoubleSide,
+  });
+  const mesh = new THREE.Mesh(geo, mat);
+  mesh.castShadow = true;
+  scene.add(mesh);
+
+  // Wireframe
+  const wireMat = new THREE.MeshBasicMaterial({ color: 0x88bbff, wireframe: true, transparent: true, opacity: 0.07 });
+  const wireMesh = new THREE.Mesh(geo, wireMat);
+  scene.add(wireMesh);
+
+  // ── Curves ─────────────────────────────────────────────────────────────────
+  const addCurve = (fn, color) => {
+    const pts = [];
+    for (let i = 0; i <= 120; i++) pts.push(fn(i / 120 * 2));
+    const cGeo = new THREE.BufferGeometry().setFromPoints(pts);
+    scene.add(new THREE.Line(cGeo, new THREE.LineBasicMaterial({ color })));
+  };
+
+  addCurve(x => new THREE.Vector3(x, 0, -(x*x)/2), 0xff4444);
+  addCurve(x => new THREE.Vector3(x, 0,  (x*x)/2), 0xff4444);
+  addCurve(x => new THREE.Vector3(x, (sqrt3/2)*x*x, 0), 0xffdd44);
+
+  // Sample cross-sections
+  [0.5, 1.0, 1.5, 2.0].forEach(x => {
+    const tri = getTriVerts(x);
+    const pts = [...tri, tri[0]];
+    const lGeo = new THREE.BufferGeometry().setFromPoints(pts);
+    scene.add(new THREE.Line(lGeo, new THREE.LineBasicMaterial({
+      color: x === 2 ? 0xffffff : 0x44ffcc,
+      transparent: true,
+      opacity: x === 2 ? 0.9 : 0.5,
+    })));
+  });
+
+  // ── Axes ───────────────────────────────────────────────────────────────────
+  const axLine = (a, b, c) => {
+    const g = new THREE.BufferGeometry().setFromPoints([a, b]);
+    scene.add(new THREE.Line(g, new THREE.LineBasicMaterial({ color: c })));
+  };
+  axLine(new THREE.Vector3(-0.2,0,0), new THREE.Vector3(2.7,0,0), 0xff5555);
+  axLine(new THREE.Vector3(0,-0.1,0), new THREE.Vector3(0,4.3,0), 0x55ff55);
+  axLine(new THREE.Vector3(0,0,-2.5), new THREE.Vector3(0,0,2.5), 0x5588ff);
+
+  // Axis tick marks
+  [0.5, 1, 1.5, 2].forEach(t => {
+    axLine(new THREE.Vector3(t,-0.07,0), new THREE.Vector3(t,0.07,0), 0xff5555);
+  });
+
+  // ── Grid ───────────────────────────────────────────────────────────────────
+  const grid = new THREE.GridHelper(8, 20, 0x1a2040, 0x0d1225);
+  grid.position.set(1, -0.001, 0);
+  scene.add(grid);
+
+  // ── Camera orbit ───────────────────────────────────────────────────────────
+  const radius = 9;
+  let theta = Math.PI / 4, phi = 1.1;
+
+  const updateCam = () => {
+    camera.position.set(
+      target.x + radius * Math.sin(phi) * Math.cos(theta),
+      target.y + radius * Math.cos(phi),
+      target.z + radius * Math.sin(phi) * Math.sin(theta)
+    );
+    camera.lookAt(target);
+  };
+  updateCam();
+
+  let isDragging = false, prevX = 0, prevY = 0, autoTheta = theta;
+
+  renderer.domElement.addEventListener('mousedown', e => { isDragging = true; prevX = e.clientX; prevY = e.clientY; });
+  window.addEventListener('mouseup', () => isDragging = false);
+  window.addEventListener('mousemove', e => {
+    if (!isDragging) return;
+    theta -= (e.clientX - prevX) * 0.008;
+    phi = Math.max(0.15, Math.min(Math.PI * 0.85, phi + (e.clientY - prevY) * 0.008));
+    prevX = e.clientX; prevY = e.clientY;
+    autoTheta = theta;
+    updateCam();
+  });
+
+  // Touch
+  renderer.domElement.addEventListener('touchstart', e => { if(e.touches.length===1){ isDragging=true; prevX=e.touches[0].clientX; prevY=e.touches[0].clientY; } });
+  window.addEventListener('touchend', () => isDragging = false);
+  window.addEventListener('touchmove', e => {
+    if (!isDragging || e.touches.length !== 1) return;
+    theta -= (e.touches[0].clientX - prevX) * 0.008;
+    phi = Math.max(0.15, Math.min(Math.PI*0.85, phi + (e.touches[0].clientY - prevY)*0.008));
+    prevX = e.touches[0].clientX; prevY = e.touches[0].clientY;
+    autoTheta = theta;
+    updateCam();
+  });
+
+  // ── Controls ───────────────────────────────────────────────────────────────
+  const slider = document.getElementById('opacity-slider');
+  const opLabel = document.getElementById('opacity-label');
+  const wireBtn = document.getElementById('wire-btn');
+  let wireOn = true;
+
+  slider.addEventListener('input', () => {
+    const val = parseInt(slider.value);
+    mat.opacity = val / 100;
+    opLabel.innerHTML = `Opacity: <strong style="color:#88aaff">${val}%</strong>`;
+  });
+
+  wireBtn.addEventListener('click', () => {
+    wireOn = !wireOn;
+    wireMesh.visible = wireOn;
+    wireBtn.textContent = wireOn ? 'Wireframe ON' : 'Wireframe OFF';
+    wireBtn.classList.toggle('off', !wireOn);
+  });
+
+  // ── Resize ─────────────────────────────────────────────────────────────────
+  window.addEventListener('resize', () => {
+    const nw = container.clientWidth, nh = container.clientHeight;
+    camera.aspect = nw / nh;
+    camera.updateProjectionMatrix();
+    renderer.setSize(nw, nh);
+  });
+
+  // ── Animate ────────────────────────────────────────────────────────────────
+  const animate = () => {
+    requestAnimationFrame(animate);
+    if (!isDragging) { autoTheta += 0.003; theta = autoTheta; updateCam(); }
+    renderer.render(scene, camera);
+  };
+  animate();
+})();
+</script>
+</body>
+</html>
