@@ -1,0 +1,1 @@
+for f in *.HEIC; do sips -s format jpeg "$f" --out "${f%.HEIC}.jpg"; done
