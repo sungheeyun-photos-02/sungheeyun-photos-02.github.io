@@ -6,8 +6,8 @@ toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-date: Sun Mar 29 21:35:58 PDT 2026
-last_modified_at: Sun Mar 29 21:35:58 PDT 2026
+date: Fri Apr 24 23:27:03 PDT 2026
+last_modified_at: Fri Apr 24 23:27:03 PDT 2026
 ---
 
 <ul>
@@ -16,5 +16,8 @@ last_modified_at: Sun Mar 29 21:35:58 PDT 2026
 </li>
 <li>
 	<a href="/2026/03/23 PDT - K-PAI Mar-2026 Forum">23 PDT - K-PAI Mar-2026 Forum</a>
+</li>
+<li>
+	<a href="/2026/03/27 KST - MIT GSW">27 KST - MIT GSW</a>
 </li>
 </ul>
