@@ -6,8 +6,8 @@ toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-date: Sat Apr 25 01:25:15 PDT 2026
-last_modified_at: Sat Apr 25 01:25:15 PDT 2026
+date: Sat Apr 25 01:46:43 PDT 2026
+last_modified_at: Sat Apr 25 01:46:43 PDT 2026
 ---
 
 <ul>
@@ -16,6 +16,9 @@ last_modified_at: Sat Apr 25 01:25:15 PDT 2026
 </li>
 <li>
 	<a href="/2026/04/06 PDT - K-PAI Apr-2026 Forum">06 PDT - K-PAI Apr-2026 Forum</a>
+</li>
+<li>
+	<a href="/2026/04/21 PDT - Lunch w Consul General">21 PDT - Lunch w Consul General</a>
 </li>
 <li>
 	<a href="/2026/04/22 PDT - Asan & DLG">22 PDT - Asan & DLG</a>
