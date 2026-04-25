@@ -6,13 +6,22 @@ toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-date: Fri Apr 24 23:50:48 PDT 2026
-last_modified_at: Fri Apr 24 23:50:48 PDT 2026
+date: Sat Apr 25 00:13:13 PDT 2026
+last_modified_at: Sat Apr 25 00:13:13 PDT 2026
 ---
 
 <ul>
 <li>
 	<a href="/2026/02/02 KST - K-PAI and SNU Eng School MOU">02 KST - K-PAI and SNU Eng School MOU</a>
+</li>
+<li>
+	<a href="/2026/02/13 CST - KSEA Austin Chapter AI Lecture">13 CST - KSEA Austin Chapter AI Lecture</a>
+</li>
+<li>
+	<a href="/2026/02/13 CST - Texas A&M AI Lecture">13 CST - Texas A&M AI Lecture</a>
+</li>
+<li>
+	<a href="/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group">21 PST - Special AI Lecture for K-PAI Legal Professionals Group</a>
 </li>
 <li>
 	<a href="/2026/02/22 PST - Hwarang SV District Vision Festival">22 PST - Hwarang SV District Vision Festival</a>
