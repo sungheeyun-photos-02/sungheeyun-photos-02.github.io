@@ -6,8 +6,8 @@ toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-date: Sat Apr 25 00:13:13 PDT 2026
-last_modified_at: Sat Apr 25 00:13:13 PDT 2026
+date: Sat Apr 25 00:17:00 PDT 2026
+last_modified_at: Sat Apr 25 00:17:00 PDT 2026
 ---
 
 <ul>
@@ -19,5 +19,8 @@ last_modified_at: Sat Apr 25 00:13:13 PDT 2026
 </li>
 <li>
 	<a href="/2026/03/27 KST - MIT GSW">27 KST - MIT GSW</a>
+</li>
+<li>
+	<a href="/2026/03/30 KST - SNUSV Talk">30 KST - SNUSV Talk</a>
 </li>
 </ul>
