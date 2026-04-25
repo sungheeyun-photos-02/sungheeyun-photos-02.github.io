@@ -6,8 +6,8 @@ toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-date: Sat Apr 25 00:50:28 PDT 2026
-last_modified_at: Sat Apr 25 00:50:28 PDT 2026
+date: Sat Apr 25 00:58:26 PDT 2026
+last_modified_at: Sat Apr 25 00:58:26 PDT 2026
 ---
 
 <div class="img-container">
@@ -59,7 +59,31 @@ last_modified_at: Sat Apr 25 00:50:28 PDT 2026
 </div>
 
 <div class="img-container">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/IMG_2538.JPG">
+</div>
+
+<div class="img-container">
 	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-24-16-57-12 005-25-reduced.jpeg">
+</div>
+
+<div class="img-container">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/IMG_2537.JPG">
+</div>
+
+<div class="img-container">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/IMG_2536.JPG">
+</div>
+
+<div class="img-container">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/IMG_2534.JPG">
+</div>
+
+<div class="img-container">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/IMG_2535.JPG">
+</div>
+
+<div class="img-container">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/IMG_2530.JPG">
 </div>
 
 <div class="img-container">
