@@ -6,40 +6,16 @@ toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-date: Sat Apr 25 00:30:18 PDT 2026
-last_modified_at: Sat Apr 25 00:30:18 PDT 2026
+date: Sat Apr 25 00:37:39 PDT 2026
+last_modified_at: Sat Apr 25 00:37:39 PDT 2026
 ---
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-13 006.jpeg">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-15-51 001-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-15-51 001.jpeg">
-</div>
-
-<div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-28 009.jpeg">
-</div>
-
-<div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-11 005.jpeg">
-</div>
-
-<div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-21 007.jpeg">
-</div>
-
-<div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-15-58 002.jpeg">
-</div>
-
-<div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-07 004.jpeg">
-</div>
-
-<div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-24 008.jpeg">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-13 006-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -51,15 +27,19 @@ last_modified_at: Sat Apr 25 00:30:18 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-49-53.jpeg">
-</div>
-
-<div class="img-container">
 	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-41-26 002.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-38 010.jpeg">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-38 010-50-reduced.jpeg">
+</div>
+
+<div class="img-container">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-28 009-50-reduced.jpeg">
+</div>
+
+<div class="img-container">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-03 003-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -67,5 +47,25 @@ last_modified_at: Sat Apr 25 00:30:18 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-03 003.jpeg">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-24 008-50-reduced.jpeg">
+</div>
+
+<div class="img-container">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-07 004-50-reduced.jpeg">
+</div>
+
+<div class="img-container">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-15-58 002-50-reduced.jpeg">
+</div>
+
+<div class="img-container">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-11 005-50-reduced.jpeg">
+</div>
+
+<div class="img-container">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-16-21 007-50-reduced.jpeg">
+</div>
+
+<div class="img-container">
+	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-49-53-25-reduced.jpeg">
 </div>
