@@ -6,8 +6,8 @@ toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-date: Mon Jun 08 22:52:52 PDT 2026
-last_modified_at: Mon Jun 08 22:52:52 PDT 2026
+date: Mon Jun 08 23:17:19 PDT 2026
+last_modified_at: Mon Jun 08 23:17:19 PDT 2026
 ---
 
 <div class="img-container">
@@ -59,7 +59,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-41-31 003.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-41-31 003.jpeg">
 </div>
 
 <div class="img-container">
@@ -71,7 +71,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-41-26 002.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/KakaoTalk_Photo_2026-04-24-18-41-26 002.jpeg">
 </div>
 
 <div class="img-container">
@@ -187,7 +187,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/1776933091120.jpg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/1776933091120.jpg">
 </div>
 
 <div class="img-container">
@@ -215,5 +215,5 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/1776933089354.jpg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/04/22 PDT - Asan & DLG/1776933089354.jpg">
 </div>

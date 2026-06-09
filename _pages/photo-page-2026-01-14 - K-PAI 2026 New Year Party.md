@@ -6,8 +6,8 @@ toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-date: Mon Jun 08 22:52:52 PDT 2026
-last_modified_at: Mon Jun 08 22:52:52 PDT 2026
+date: Mon Jun 08 23:17:04 PDT 2026
+last_modified_at: Mon Jun 08 23:17:04 PDT 2026
 ---
 
 <div class="img-container">
@@ -51,7 +51,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 006-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 006-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -83,7 +83,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-20-04 008-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-20-04 008-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -115,7 +115,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 004-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 004-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -127,11 +127,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 009-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 009-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 006.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 006.jpeg">
 </div>
 
 <div class="img-container">
@@ -147,7 +147,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 007.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 007.jpeg">
 </div>
 
 <div class="img-container">
@@ -187,11 +187,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 003-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 003-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-21-46 023-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-21-46 023-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -219,7 +219,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-37 003-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-37 003-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -247,7 +247,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 001-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 001-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -259,7 +259,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-20-00 007-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-20-00 007-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -287,7 +287,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-37 003.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-37 003.jpeg">
 </div>
 
 <div class="img-container">
@@ -315,11 +315,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-21-20 020-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-21-20 020-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 002-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 002-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -335,7 +335,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-41-41 001-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-41-41 001-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -427,7 +427,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 007-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 007-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -435,7 +435,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-21-52 024-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-21-52 024-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -471,7 +471,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-38-29 001-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-38-29 001-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -487,7 +487,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 001.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 001.jpeg">
 </div>
 
 <div class="img-container">
@@ -515,15 +515,15 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 005-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 005-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-20-30 012-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-20-30 012-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 008-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 008-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -563,7 +563,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 002.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 002.jpeg">
 </div>
 
 <div class="img-container">
@@ -615,7 +615,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-41-41 001-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-41-41 001-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -627,11 +627,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-38-39 002-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-38-39 002-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 002-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 002-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -639,7 +639,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-19-43 004-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-19-43 004-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -703,7 +703,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 008-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 008-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -715,7 +715,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 005-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 005-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -783,11 +783,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 003.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 003.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 007-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 007-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -799,11 +799,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-19-49 005-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-19-49 005-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 009-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 009-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -811,7 +811,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 008.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 008.jpeg">
 </div>
 
 <div class="img-container">
@@ -819,7 +819,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-39-02 006-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-39-02 006-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -847,7 +847,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 004-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 004-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -871,11 +871,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-20-50 014-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-20-50 014-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 004.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 004.jpeg">
 </div>
 
 <div class="img-container">
@@ -888,10 +888,6 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 
 <div class="img-container">
 	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-44-26 001-50-reduced.jpeg">
-</div>
-
-<div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Video_2026-01-16-20-48-30.mp4">
 </div>
 
 <div class="img-container">
@@ -915,11 +911,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 006-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 006-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-21-20 019-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-21-20 019-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -959,7 +955,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 001-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 001-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -975,15 +971,15 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-39-08 007-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-39-08 007-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-39-12 008-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-39-12 008-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 005.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 005.jpeg">
 </div>
 
 <div class="img-container">
@@ -999,7 +995,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 003-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 003-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -1011,7 +1007,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-37 003-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-37 003-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -1039,15 +1035,15 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-41-41 001.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-41-41 001.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-21-34 022-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-19-15-21-34 022-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 009.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/01/14 - K-PAI 2026 New Year Party/KakaoTalk_Photo_2026-01-16-20-42-53 009.jpeg">
 </div>
 
 <div class="img-container">

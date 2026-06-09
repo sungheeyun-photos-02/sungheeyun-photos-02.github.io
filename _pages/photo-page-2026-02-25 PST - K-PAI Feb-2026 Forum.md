@@ -6,12 +6,12 @@ toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-date: Mon Jun 08 22:52:52 PDT 2026
-last_modified_at: Mon Jun 08 22:52:52 PDT 2026
+date: Mon Jun 08 23:17:15 PDT 2026
+last_modified_at: Mon Jun 08 23:17:15 PDT 2026
 ---
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-06-38 004-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-06-38 004-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -31,11 +31,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-09-33 006.png">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-09-33 006.png">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-06-35 002-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-06-35 002-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -55,7 +55,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-49-06 017-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-49-06 017-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -79,15 +79,15 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-49-09 018-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-49-09 018-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-04-49.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-04-49.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-49-06 016-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-49-06 016-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -103,15 +103,15 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-09-30 005.png">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-09-30 005.png">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-09-21 001.png">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-09-21 001.png">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-49-24 020-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-49-24 020-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -123,15 +123,15 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-49-18 019-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-49-18 019-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-08-24 003.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-08-24 003.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-09-21 002.png">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-09-21 002.png">
 </div>
 
 <div class="img-container">
@@ -143,11 +143,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-09-24 003.png">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-09-24 003.png">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-06-13 005-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-06-13 005-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -159,7 +159,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-49-01 014-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-49-01 014-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -167,7 +167,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-08-26 004.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-08-26 004.jpeg">
 </div>
 
 <div class="img-container">
@@ -175,11 +175,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-06-33 001-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-06-33 001-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-07-09 003-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-07-09 003-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -195,7 +195,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-48-58 013-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-48-58 013-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -231,7 +231,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-49-04 015-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-17-49-04 015-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -247,5 +247,5 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-09-27 004.png">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/25 PST - K-PAI Feb-2026 Forum/KakaoTalk_Photo_2026-03-09-18-09-27 004.png">
 </div>

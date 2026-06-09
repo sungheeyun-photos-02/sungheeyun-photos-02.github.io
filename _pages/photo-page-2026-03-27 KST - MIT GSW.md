@@ -6,8 +6,8 @@ toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-date: Mon Jun 08 22:52:52 PDT 2026
-last_modified_at: Mon Jun 08 22:52:52 PDT 2026
+date: Mon Jun 08 23:17:17 PDT 2026
+last_modified_at: Mon Jun 08 23:17:17 PDT 2026
 ---
 
 <div class="img-container">
@@ -39,7 +39,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-17 001-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-17 001-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -63,11 +63,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/IMG_2538.JPG">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/IMG_2538.JPG">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-19 006-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-19 006-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -87,11 +87,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-27 007-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-27 007-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-17 002-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-17 002-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -103,7 +103,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/IMG_2530.JPG">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/IMG_2530.JPG">
 </div>
 
 <div class="img-container">
@@ -115,11 +115,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-17 004-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-17 004-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-19 005-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-19 005-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -139,7 +139,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-30 008-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-30 008-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -147,7 +147,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-17 003-25-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/03/27 KST - MIT GSW/KakaoTalk_Photo_2026-04-29-10-30-17 003-25-reduced.jpeg">
 </div>
 
 <div class="img-container">

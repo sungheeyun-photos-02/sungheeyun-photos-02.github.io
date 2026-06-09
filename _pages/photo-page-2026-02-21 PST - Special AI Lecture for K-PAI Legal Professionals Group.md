@@ -6,12 +6,12 @@ toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-date: Mon Jun 08 22:52:52 PDT 2026
-last_modified_at: Mon Jun 08 22:52:52 PDT 2026
+date: Mon Jun 08 23:17:14 PDT 2026
+last_modified_at: Mon Jun 08 23:17:14 PDT 2026
 ---
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-36-38 018-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-36-38 018-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -23,7 +23,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-36-09 012-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-36-09 012-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -47,7 +47,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-35-26 007-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-35-26 007-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -55,19 +55,19 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-36-34 017-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-36-34 017-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-34-38 006-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-34-38 006-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-35-38 008-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-35-38 008-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-34-01 005-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-34-01 005-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -75,11 +75,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-36-41 019-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-36-41 019-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-35-54 010-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-35-54 010-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -91,7 +91,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-35-50 009-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-35-50 009-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
@@ -99,5 +99,5 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-36-03 011-50-reduced.jpeg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/21 PST - Special AI Lecture for K-PAI Legal Professionals Group/KakaoTalk_Photo_2026-02-21-21-36-03 011-50-reduced.jpeg">
 </div>

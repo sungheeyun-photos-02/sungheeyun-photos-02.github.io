@@ -6,6 +6,8 @@ import os
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+from PIL import Image, ImageOps
+
 
 class PhotoPage:
 
@@ -36,7 +38,9 @@ class PhotoPage:
 
         lines.append("---")
         lines.append("layout: single")
-        lines.append(f"title: \"{os.path.join(*self.id_) if len(self.id_) > 0 else 'Photos'}\"")
+        lines.append(
+            f"title: \"{os.path.join(*self.id_) if len(self.id_) > 0 else 'Photos'}\""
+        )
         lines.append(f'permalink: "{self.permalink}"')
         lines.append("toc: false")
         lines.append('toc_label: "&nbsp;Table of Contents"')
@@ -51,7 +55,9 @@ class PhotoPage:
             lines.append("<ul>")
             for child in sorted(self.children):
                 lines.append("<li>")
-                lines.append(f'\t<a href="{self.get_permalink(self.id_ + (child,))}">{child}</a>')
+                lines.append(
+                    f'\t<a href="{self.get_permalink(self.id_ + (child,))}">{child}</a>'
+                )
                 lines.append("</li>")
             lines.append("</ul>")
 
@@ -67,10 +73,27 @@ class PhotoPage:
                 if os.path.splitext(filename)[1].lower() == ".heic":
                     continue
 
+                if os.path.splitext(filename)[1].lower() == ".mp4":
+                    continue
+
+                if os.path.splitext(filename)[1].lower() == ".mov":
+                    continue
+
+                if os.path.splitext(filename)[1].lower() == ".txt":
+                    continue
+
+                photo_filename: str = os.path.join(photo_dir, filename)
+                # print(os.getcwd())
+                # print(photo_filename)
+                width, height = ImageOps.exif_transpose(Image.open(photo_filename)).size
+                # print(f"{width} x {height}")
+
+                img_width: int = 100 if width > height else 80
+
                 lines.append("")
                 lines.append('<div class="img-container">')
                 lines.append(
-                    '\t<img style="max-width: 100%; max-height: none;" '
+                    f'\t<img style="max-width: {img_width}%; max-height: none;" '
                     + f'src="/{os.path.join(photo_dir,filename)}">'
                 )
                 lines.append("</div>")
@@ -80,7 +103,9 @@ class PhotoPage:
 
     @property
     def _file_name(self) -> str:
-        return f"photo-page-{'-'.join(self.id_) if len(self.id_) > 0 else 'photo_master'}"
+        return (
+            f"photo-page-{'-'.join(self.id_) if len(self.id_) > 0 else 'photo_master'}"
+        )
 
     @property
     def permalink(self) -> str:

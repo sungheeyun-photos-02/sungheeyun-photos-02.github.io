@@ -6,8 +6,8 @@ toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-date: Mon Jun 08 22:52:52 PDT 2026
-last_modified_at: Mon Jun 08 22:52:52 PDT 2026
+date: Mon Jun 08 23:17:13 PDT 2026
+last_modified_at: Mon Jun 08 23:17:13 PDT 2026
 ---
 
 <div class="img-container">
@@ -31,10 +31,6 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_0915.MOV">
-</div>
-
-<div class="img-container">
 	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_2728-25-reduced.jpeg">
 </div>
 
@@ -52,14 +48,6 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 
 <div class="img-container">
 	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_2731-25-reduced.jpeg">
-</div>
-
-<div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_0904.MOV">
-</div>
-
-<div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_0912.MOV">
 </div>
 
 <div class="img-container">
@@ -87,7 +75,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_0916-25-reduced.jpg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_0916-25-reduced.jpg">
 </div>
 
 <div class="img-container">
@@ -115,7 +103,7 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_0918-25-reduced.jpg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_0918-25-reduced.jpg">
 </div>
 
 <div class="img-container">
@@ -123,15 +111,11 @@ last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_0917-25-reduced.jpg">
+	<img style="max-width: 80%; max-height: none;" src="/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_0917-25-reduced.jpg">
 </div>
 
 <div class="img-container">
 	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_2732-25-reduced.jpeg">
-</div>
-
-<div class="img-container">
-	<img style="max-width: 100%; max-height: none;" src="/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_0922.MOV">
 </div>
 
 <div class="img-container">
