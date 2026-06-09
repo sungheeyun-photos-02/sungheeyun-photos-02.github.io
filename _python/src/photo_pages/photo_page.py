@@ -85,7 +85,10 @@ class PhotoPage:
                 photo_filename: str = os.path.join(photo_dir, filename)
                 # print(os.getcwd())
                 # print(photo_filename)
-                width, height = ImageOps.exif_transpose(Image.open(photo_filename)).size
+                img: Image.Image | None = ImageOps.exif_transpose(
+                    Image.open(photo_filename)
+                )
+                width, height = img.size  # type: ignore
                 # print(f"{width} x {height}")
 
                 img_width: int = 100 if width > height else 80
