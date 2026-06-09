@@ -6,8 +6,8 @@ toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-date: Tue May 05 03:40:33 PDT 2026
-last_modified_at: Tue May 05 03:40:33 PDT 2026
+date: Mon Jun 08 22:52:52 PDT 2026
+last_modified_at: Mon Jun 08 22:52:52 PDT 2026
 ---
 
 <ul>
@@ -21,6 +21,9 @@ last_modified_at: Tue May 05 03:40:33 PDT 2026
 	<a href="/2026/04/06 PDT - K-PAI Apr-2026 Forum">06 PDT - K-PAI Apr-2026 Forum</a>
 </li>
 <li>
+	<a href="/2026/04/11 PDT - K-PAI 2nd Open Table Group Meeting">11 PDT - K-PAI 2nd Open Table Group Meeting</a>
+</li>
+<li>
 	<a href="/2026/04/21 PDT - Lunch w Consul General">21 PDT - Lunch w Consul General</a>
 </li>
 <li>
@@ -28,5 +31,8 @@ last_modified_at: Tue May 05 03:40:33 PDT 2026
 </li>
 <li>
 	<a href="/2026/04/24 PDT - Hiking with Ghayoung">24 PDT - Hiking with Ghayoung</a>
+</li>
+<li>
+	<a href="/2026/04/27 PDT - K-PAI East Bay Group Gathering">27 PDT - K-PAI East Bay Group Gathering</a>
 </li>
 </ul>
