@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="400" height="400">
+  <!-- Tilted cross (x), centered. Bounding box ~54.8 x 54.8 => ~30% of total area -->
+  <g stroke="#000000" stroke-width="8" stroke-linecap="round">
+    <line x1="27.6" y1="27.6" x2="72.4" y2="72.4"/>
+    <line x1="72.4" y1="27.6" x2="27.6" y2="72.4"/>
+  </g>
+</svg>
